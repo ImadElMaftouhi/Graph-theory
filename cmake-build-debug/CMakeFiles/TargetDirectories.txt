@@ -1,0 +1,3 @@
+C:/Users/imadt/OneDrive/Documents/Graph theory/cmake-build-debug/CMakeFiles/Graph_theory.dir
+C:/Users/imadt/OneDrive/Documents/Graph theory/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/imadt/OneDrive/Documents/Graph theory/cmake-build-debug/CMakeFiles/rebuild_cache.dir
