@@ -61,6 +61,12 @@ build CMakeFiles/Graph_theory.dir/main.c.obj: C_COMPILER__Graph_theory_unscanned
   OBJECT_DIR = CMakeFiles\Graph_theory.dir
   OBJECT_FILE_DIR = CMakeFiles\Graph_theory.dir
 
+build CMakeFiles/Graph_theory.dir/import.c.obj: C_COMPILER__Graph_theory_unscanned_Debug C$:/Users/imadt/OneDrive/Documents/Graph$ theory/import.c || cmake_object_order_depends_target_Graph_theory
+  DEP_FILE = CMakeFiles\Graph_theory.dir\import.c.obj.d
+  FLAGS = -g -std=gnu2x -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Graph_theory.dir
+  OBJECT_FILE_DIR = CMakeFiles\Graph_theory.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target Graph_theory
@@ -69,7 +75,7 @@ build CMakeFiles/Graph_theory.dir/main.c.obj: C_COMPILER__Graph_theory_unscanned
 #############################################
 # Link the static library libGraph_theory.a
 
-build libGraph_theory.a: C_STATIC_LIBRARY_LINKER__Graph_theory_Debug CMakeFiles/Graph_theory.dir/library.c.obj CMakeFiles/Graph_theory.dir/main.c.obj
+build libGraph_theory.a: C_STATIC_LIBRARY_LINKER__Graph_theory_Debug CMakeFiles/Graph_theory.dir/library.c.obj CMakeFiles/Graph_theory.dir/main.c.obj CMakeFiles/Graph_theory.dir/import.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = CMakeFiles\Graph_theory.dir
   POST_BUILD = cd .
